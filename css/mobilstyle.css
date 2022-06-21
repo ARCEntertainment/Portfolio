@@ -1,0 +1,266 @@
+@media screen and (max-width:800px) {
+
+    /* VARIABLE Declaration */
+    :root {
+        /* Global Color */
+        --ColorAntra: #202428;
+        --ColorWhite: #FFFFFF;
+
+        /* Detail Color */
+        --ColorGreen: #A7FA6D;
+        --ColorGreenLight: #BEFA7D;
+        --ColorGold: #E6C300;
+        --ColorGoldA: rgba(230, 196, 0, 0.1);
+        --ColorTech: rgb(97, 200, 255);
+    }
+
+    /* DETAIL */
+    body main {
+        box-shadow: 0px -20px 100px rgba(0, 0, 0, 0.4);
+        width: 100vw;
+    }
+
+    /* HEADER Structure Introduction */
+
+    header {
+        background: url(../img/glass-cyber.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+
+    header h2 {
+        letter-spacing: 0.2rem;
+        position: none;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        top: 100%;
+        left: 0;
+        margin-left: 5px;
+        transform: translate(0%, -300%);
+
+    }
+
+    header p {
+        position: none;
+        color: rgba(201, 201, 201, 0.6);
+        text-align: left;
+        top: 100%;
+        left: 0;
+        margin-left: 5px;
+        transform: translate(0%, -800%);
+    }
+
+    /* MENU--ICONE Navigation */
+
+    header .screen-nav {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100vh;
+    }
+
+    header .box-nav {
+        height: 80px;
+        width: 100vw;
+        margin-right: 0;
+        margin-bottom: 0px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    header .nav img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .nav {
+        opacity: 1;
+        background: rgba(150, 211, 243, 0.5);
+        width: 99vw;
+        height: 70px;
+        margin-bottom: 0px;
+        margin-top: 0;
+        margin-right: 0;
+        border-radius: 0;
+        border: 1px solid #befa7d7a;
+        box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.5),
+            inset -2px -2px 20px rgb(111, 111, 111, 0.4);
+    }
+
+    .nav ul {
+        display: flex;
+    }
+
+    .nav ul li {
+        width: 10vw;
+        padding: 0 8px;
+        margin: 0 5px;
+    }
+
+    /* SCT--COMPETENCE Structur Base */
+
+    main .competence {
+        width: 95vw;
+        margin: 0 auto;
+        margin-bottom: 300px;
+        border-style: none;
+        box-shadow: 1px 1px 5px var(--ColorAntra);
+    }
+
+    main .competence .intitul {
+        margin: 0 0 50px 5px;
+    }
+
+    main .competence h3 {
+        margin: 30px 0 0 5px;
+    }
+
+    main .competence .arrow img {
+        margin: 30px 10px 0 100px;
+    }
+
+    /* COMPETENCE mise en place !Sexion--Principal! */
+
+    main .historyFirst {
+        width: 100%;
+        box-shadow: none;
+        border-style: none;
+        column-gap: 100px;
+    }
+
+    main .historyFirst div {
+        height: 150px;
+        width: 80px;
+        background: #3b434a;
+    }
+
+    main .historyFirst p {
+        text-shadow: none;
+        color: #0b0d0e;
+        font-size: 1rem;
+    }
+
+    main .competence h4 {
+        padding-left: 5px;
+    }
+
+    /* COMPETENCE mise en place !Sexion--Secondaire! */
+
+    main .historySecond {
+        width: 100%;
+        box-shadow: none;
+        border-style: none;
+        column-gap: 100px;
+    }
+
+    main .historySecond div {
+        height: 150px;
+        width: 80px;
+        background: #3b434a;
+    }
+
+    main .historySecond p {
+        text-shadow: none;
+        color: #0b0d0e;
+        font-size: 1rem;
+    }
+
+    /* SCT--REALISATION Structur Base */
+
+    main .realisation {
+        height: 150vh;
+        width: 100vw;
+    }
+
+    main .realisation h3 {
+        margin-bottom: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+
+    .boxRealLeft1 {
+        width: 95vw;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        height: 200px;
+        transform: translate(0);
+        box-shadow: 1px 1px 10px var(--ColorAntra);
+    }
+
+    .boxRealLeft1 p {
+        visibility: hidden;
+    }
+
+    .real1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .boxRealRight1 {
+        width: 95vw;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        height: 200px;
+        transform: translate(0);
+        box-shadow: 1px 1px 10px var(--ColorAntra);
+    }
+
+    .boxRealRight1 p {
+        visibility: hidden;
+    }
+
+    .real2 {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* SCT--CONTACT Structur Base */
+
+    #area {
+        justify-content: center;
+        margin: none;
+        width: 0;
+    }
+
+    main .contact {
+        display: block;
+        justify-content: left;
+        height: 110vh;
+        width: 95vw;
+        border-style: none;
+        box-shadow: 1px 1px 10px var(--ColorAntra);
+    }
+
+    .contact p {
+        visibility: hidden;
+    }
+
+    .contact h4 {
+        visibility: hidden;
+    }
+
+    main form {
+        width: 500px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    main .contact fieldset {
+        margin: 0 auto;
+        width: 200px;
+        margin-right: 160px;
+    }
+
+    main .contrat input,
+    #message {
+        width: 200px;
+    }
+
+    main .contact #send {
+        margin-left: 50px;
+    }
+}
